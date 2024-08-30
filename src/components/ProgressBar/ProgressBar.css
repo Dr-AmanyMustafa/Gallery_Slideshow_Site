@@ -1,0 +1,8 @@
+.progressBar {
+    position: absolute;
+    top: 0;
+    background: rgb(86, 4, 4);
+    height: 5px;
+    z-index: 2;
+    transition: 0.3s all ease-in-out;
+  }

@@ -1,0 +1,36 @@
+
+.App {
+  min-height: 100vh;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+  background: white;
+  z-index: 0;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 702px) {
+
+  .App {
+
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+
+  .App {
+
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+  
+}
